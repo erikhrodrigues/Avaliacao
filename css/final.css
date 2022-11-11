@@ -1,0 +1,40 @@
+.avaliacao__final {
+    display: none;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: radial-gradient(98.96% 98.96% at 50% 0%, #232A34 0%, #181E27 100%);
+    border-radius: 30px;
+    width: 279px;
+    height: 312px;
+    padding: 24px 24px;
+    align-self: center;
+}
+
+.avaliacao__final__imagem{
+    text-align: center;
+}
+
+h2 {
+    color: #ffffff;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.avaliacao__descricao__final{
+    font-size: 14px;
+    color: #969FAD;
+    margin-top: 10px;
+    line-height: 22px;
+    text-align: center;
+}
+
+.res {
+    margin-top: 10px;
+    padding: 0.5rem 0.5rem;
+    background-color: #262E38;
+    color: #FC7614;
+    border-radius: 22.5px;
+    font-weight: 400;
+    font-size: 15px;
+}
