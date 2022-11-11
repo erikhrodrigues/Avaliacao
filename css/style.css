@@ -86,6 +86,7 @@ body {
     display: none;
 }
 
+/*----------- RESPONSIVO ----------- */
 @media screen and (min-width:920px){
     .avaliacao__selecao__item:hover {
         background-color: #FC7614;

@@ -7,7 +7,7 @@
     <title>Avaliação</title>
     <!--Css-->
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/final.css">
+    <link rel="stylesheet" href="css/tela-final.css">
     <!--Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,10 +15,11 @@
 </head>
 <body>
     <main>
+        <!--Tela inicial-->
         <section class="avaliacao">
                 <img src="img/estrela.svg" alt="Imagem de estrela" class="avaliacao__estrela">
-                <h1>How did we do?</h1>
-                <p class="avaliacao__descricao">Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
+                <h1>Como você nos avalia?</h1>
+                <p class="avaliacao__descricao">Qual nota você avalia nosso atendimento?<br> É muito importante para que possamos continuar melhorando...</p>
                 <ul class="avaliacao__selecao">
                     <li><button class="avaliacao__selecao__item" value="1">1</a></li>
                     <li><button class="avaliacao__selecao__item" value="2">2</a></li>
@@ -26,16 +27,19 @@
                     <li><button class="avaliacao__selecao__item" value="4">4</a></li>
                     <li><button class="avaliacao__selecao__item" value="5">5</a></li>
                 </ul>
-                <button type="submit" class="avaliacao__botao" id="avaliacaoBtn">SUBMIT</button>
+                <button type="submit" class="avaliacao__botao" id="avaliacaoBtn">Enviar</button>
         </section>
+
+        <!--Tela Final-->
         <section class="avaliacao__final">
             <img src="img/imagem-conclusao.svg" alt="Imagem de um celular" class="avaliacao__final__imagem">
             <div class="res"></div>
-            <h2>Thank you!</h2>
-            <p class="avaliacao__descricao__final">We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get in touch!</p>
+            <h2>Muito obrigado(a)!</h2>
+            <p class="avaliacao__descricao__final">Você contribuiu para que possamos melhorar cada vez mais! <br> Lembre-se, nossa equipe de suporte permanece a sua disposição!</p>
         </section>
     </main>
 
+    <!--Script-->
     <script src="js/main.js"></script>
 </body>
 </html>
